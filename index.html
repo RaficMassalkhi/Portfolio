@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/335b50e245.js" crossorigin="anonymous"></script>
+ </head>   
+ <body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Scientist</p>
+                <h1>Hi, I am <span>Rafic Massalkhi</span></h1>
+        </div>
+    </div>
+    </div>
+<!-- ---------------- about --------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Rafic Massalkhi, a Data Science student at Western University. Fascinated by the insights data reveals, I'm passionate about leveraging it to drive decisions. 
+                        Beyond academics, I thrive on real-world challenges and collaboration. I'm committed to ethical data use and believe in technology's positive impact on society.
+                        In my free time, I enjoy playing and watching many sports including soccer, F1, and UFC. I'm excited about the endless possibilities data science offers and aspire to make a meaningful impact in the world.
+                        Let's connect to discuss data science, share ideas, or collaborate on exciting projects!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Technical Skills')">Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Technical Skills">
+                            <ul>
+                                
+                                    <li><span>Python</span> - Intermediate</li>
+                                    <li><span>Java</span> - Intermediate</li>
+                                
+                                    <li><span>C</span> - Intermediate</li>
+                                    <li><span>Linux</span> - Beginner</li>
+                                
+                                    <li><span>HTML</span> - Beginner</li>
+                                    <li><span>CSS</span> - Beginner</li>
+                                
+                                    <li><span>JavaScript</span> - Beginner</li>
+                                    <li><span>Microsoft Office Suite</span> - Beginner</li>
+                                                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Skills">
+                            <ul>
+                                <li><span>Communication</span><br>Juventus Academy, ES 1050</li>
+                                <li><span>Team Management</span><br>Juventus Academy, ES 1050</li>
+                                <li><span>Project Management</span><br>Juventus Academy</li>
+                                <li><span>Organizational and Multitasking Skills</span><br>Juventus Academy</li>
+                                <li><span>English</span><br>Fluent</li>
+                                <li><span>Arabic</span><br>Fluent</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>September 2020 - May 2021</span><br>Juventus Academy Khobar - Photographer</li>
+                                <li><span>November 2019 - March 2020</span><br>Juventus Academy Khobar - Assistant Coach</li>
+                                <li><span>February 2020</span><br>Habitat for Humanity South Africa - Volunteer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021 - Current</span><br>Bachelors of Science in Data Science - Western University</li>
+                                <li><span>2017 - 2021</span><br>Dhahran HighSchool</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------- services ---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Data Visualization</h2>
+                    <p>Utilizing tools and techniques to transform complex datasets into insightful visual representations, facilitating clear and concise communication of key findings and trends.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Employing statistical methods to extract actionable insights from large datasets, enabling informed decision-making and strategic planning.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Collection</h2>
+                    <p>Designing and implementing efficient data collection strategies, leveraging a diverse range of sources and technologies to gather relevant information for analysis and visualization.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------- Portfolio ---------------  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>Created a dynamic personal portfolio website using CSS, HTML, and JavaScript. It is used for showcasing technical skills and refletcing on the latest projects completed.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3></h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="">
+                <div class="layer">
+                    <h3></h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------- contact --------------  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-inbox"></i> rmassalkhi@hotmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i> +1-(647)-674-9367</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i> +966-56-982-2838</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rafic-massalkhi-365992300/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rafic.massalkhi/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100000466987438"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/RaficMassalkhi"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="Images/ResumeFinal.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Please Enter your Name" required>
+                    <input type="email" name="Email" placeholder="Please Enter your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Please Enter your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rafic. Made by Rafic Massalkhi</p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyOi1lUHrAn25s5rO8COJ2eS8NrcwjmZ42NzL96UKlusHb-5C_40uaAPNERLP3p9hpV/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been sent successfully!"
+            setTimeout (function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+ </body>
+</html>
