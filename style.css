@@ -279,6 +279,11 @@ nav ul li a:hover::after{
 .contact-right form{
     width: 100%;
 }
+.contact-right a{
+    color: #00b055;
+    font-size: 40px;
+    margin-left: 780px;   
+}
 form input, form textarea{
     width: 100%;
     border: 0;
@@ -361,6 +366,11 @@ nav .fa-xmark{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .contact-right a{
+        margin-left: 450px;
+        padding-bottom: 60px;
+       
     }
     .copyright{
         width: 140%;
