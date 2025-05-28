@@ -364,6 +364,24 @@ nav .fa-xmark{
         flex-basis: 100%;
         margin-bottom: 30px;
     }
+
+/*-------- changes --------*/
+
+    .services-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+    }
+
+    .work-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+    }
+
+/* -------------------------*/
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
