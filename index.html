@@ -3,7 +3,7 @@
  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/cf1ab49ce1.js" crossorigin="anonymous"></script>
@@ -39,12 +39,11 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I'm Rafic Massalkhi, a Computer Science student at Western University. Fascinated by the transformative power of technology, 
-                        I'm passionate about creating innovative solutions and driving progress through code. Beyond academics, I thrive on real-world 
-                        challenges and collaboration. I'm committed to ethical computing and believe in technology's potential to positively impact society.
-                        In my free time, I enjoy playing and watching many sports, including soccer, Tennis, and UFC. I'm excited about the endless possibilities 
-                        computer science offers and aspire to make a meaningful impact in the world. Let's connect to discuss computer science, share ideas,
-                         or collaborate on exciting projects!</p>
+                    <p>I'm Rafic Massalkhi, a Computer Science graduate from Western University with a strong interest in data, analytics, and using technology to solve real-world problems. I enjoy working with data, finding patterns, and turning complex information into insights that can support better decisions.
+
+Beyond the technical side, I enjoy collaborating with others, taking on new challenges, and constantly learning new skills. Outside of work, I'm a huge sports fan and enjoy both playing and watching soccer, tennis, and MMA.
+
+I'm always open to new opportunities, interesting projects, and connecting with people who share similar interests. Feel free to reach out!</p>
 
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('Technical Skills')">Technical Skills</p>
@@ -55,44 +54,59 @@
 
                         </div>
                         <div class="tab-contents active-tab" id="Technical Skills">
-                            <ul>
-                                
-                                    <li><span>Python</span> - Intermediate</li>
-                                    <li><span>SQL</span> - Intermediate</li> 
-                                    <li><span>Java</span> - Intermediate</li>
-                                    <li><span>Tableau</span> - Intermediate</li>
-                                    <li><span>Power BI</span> - Intermediate</li>
-                                    <li><span>HTML</span> - Intermediate</li>
-                                    <li><span>CSS</span> - Intermediate</li>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Data & Analytics</h3>
+                                    <ul>
+                                        <li>SQL</li>
+                                        <li>Python</li>
+                                        <li>Microsoft Excel</li>
+                                        <li>R</li>
+                                    </ul>
+                                </div>
 
-                                    <li><span>Linux</span> - Beginner</li>
-                                    <li><span>C</span> - Beginner</li>
-                                    <li><span>C++</span> - Beginner</li>
-                                    <li><span>R</span> - Beginner</li>
+                                <div class="skill-category">
+                                    <h3>BI & Visualization</h3>
+                                    <ul>
+                                        <li>Power BI</li>
+                                        <li>Tableau</li>
+                                    </ul>
+                                </div>
 
-
-                                    <li><span>JavaScript</span> - Beginner</li>
-                                    <li><span>Microsoft Excel</span> - Intermediate</li>
-                                    <li><span>Microsoft PowerPoint</span> - Intermediate</li>
-    
-                            </ul>
+                                <div class="skill-category">
+                                    <h3>Technical</h3>
+                                    <ul>
+                                        <li>Git</li>
+                                        <li>Java</li>
+                                        <li>Linux</li>
+                                        <li>HTML & CSS</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-contents" id="Skills">
-                            <ul>
-                                <li><span>Communication</span></li>
-                                <li><span>Team Management</span></li>
-                                <li><span>Time Management</span></li>
-                                <li><span>Detail Oriented </span></li>
-                                <li><span>Goal-Driven</span></li>
-                                <li><span>Project Management</span></li>
-                                <li><span>Organizational and Multitasking Skills</span></li>
-                                
-                                <li><span>English</span><br>Fluent</li>
-                                <li><span>Arabic</span><br>Fluent</li>
-                                <li><span>French</span><br>Beginner</li>
+                            <div class="skills-grid normal-skills-grid">
+                                <div class="skill-category">
+                                    <h3>Professional Skills</h3>
+                                    <ul>
+                                        <li>Communication</li>
+                                        <li>Team Management</li>
+                                        <li>Time Management</li>
+                                        <li>Detail Oriented</li>
+                                        <li>Project Management</li>
+                                        <li>Organization & Multitasking</li>
+                                    </ul>
+                                </div>
 
-                                
-                            </ul>
+                                <div class="skill-category">
+                                    <h3>Languages</h3>
+                                    <ul>
+                                        <li>English <span class="skill-level">Fluent</span></li>
+                                        <li>Arabic <span class="skill-level">Fluent</span></li>
+                                        <li>French <span class="skill-level">Beginner</span></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-contents" id="Experience">
                             <ul>
@@ -102,8 +116,8 @@
                         </div>
                         <div class="tab-contents" id="Education">
                             <ul>
-                                <li><span>2022 - 2026. </span><br>Bachelors of Science in Computer Science - Western University</li>
-                                <li><span>2017 - 2021</span><br>Dhahran HighSchool</li>
+                                <li><span>2022 - 2026. </span><br>Bachelor of Science in Computer Science - Western University</li>
+                                <li><span>2017 - 2021</span><br>Dhahran High School</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="Certifications">
@@ -135,19 +149,19 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-database"></i>
-                    <h2>Data Collection</h2>
-                    <p>Designing and implementing efficient data collection strategies, leveraging a diverse range of sources and technologies to gather relevant information for analysis and visualization.</p>
+                    <h2>SQL & Data Exploration</h2>
+                    <p>Query and explore datasets using SQL to extract, organize, and analyze valuable information.</p>
                     
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Software Development</h2>
-                    <p>Designing, building, and testing robust software applications using modern programming languages and frameworks, with a focus on performance, scalability, and user experience.</p>
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                    <h2>Predictive Analytics</h2>
+                    <p>Apply statistical and machine learning techniques to identify patterns and predict future outcomes.</p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-network-wired"></i>
-                    <h2>Algorithms & Data Structures</h2>
-                    <p>Applying efficient algorithms and data structures to solve computational problems, optimize system performance, and build high-quality solutions tailored to user needs.</p>
+                    <i class="fa-solid fa-broom"></i>
+                    <h2>Data Cleaning & Transformation</h2>
+                    <p>Clean, structure, and transform raw data into reliable, analysis-ready datasets.</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-laptop-code"></i>
@@ -163,10 +177,18 @@
         <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
             <div class="work">
+                <img src="work-4.png">
+                <div class="layer">
+                    <h3>Housing Price Predictor</h3>
+                    <p>Built an end-to-end housing price prediction pipeline using Ridge, Lasso, and XGBoost models, incorporating data cleaning, feature engineering, and cross-validated model evaluation. Compared linear and tree-based models using RMSE and R², identifying key drivers of housing prices and quantifying performance trade-offs across modeling approaches. Applied SHAP analysis to interpret model predictions</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
                 <img src="work-1.png">
                 <div class="layer">
                     <h3>Personal Portfolio</h3>
-                    <p>Created a dynamic personal portfolio website using CSS, HTML, and JavaScript. It is used for showcasing technical skills and refletcing on the latest projects completed.</p>
+                    <p>Created a dynamic personal portfolio website using CSS, HTML, and JavaScript. It is used for showcasing technical skills and reflecting on the latest projects completed.</p>
                     <a href="#"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
@@ -181,16 +203,8 @@
             <div class="work">
                 <img src="work-3.png">
                 <div class="layer">
-                    <h3>Interactive Tomagotchi Game</h3>
+                    <h3>Interactive Tamagotchi Game</h3>
                     <p>Developed a virtual pet game in Java with a Java Swing GUI, implementing core gameplay features such as pet management, inventory system, and real-time updates of pet stats (hunger, happiness, health). We executed comprehensive manual and automated testing (JUnit) for unit, integration, and system testing, ensuring robust, bug-free performance and seamless user experience.</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="work-4.png">
-                <div class="layer">
-                    <h3>Housing Price Predictor</h3>
-                    <p>Built an end-to-end housing price prediction pipeline using Ridge, Lasso, and XGBoost models, incorporating data cleaning, feature engineering, and cross-validated model evaluation. Compared linear and tree-based models using RMSE and R², identifying key drivers of housing prices and quantifying performance trade-offs across modeling approaches. Applied SHAP analysis to interpret model predictions</p>
                     <a href="#"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
